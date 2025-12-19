@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Projects — Rayyan Rashid</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="brand">
+			<svg class="logo" viewBox="0 0 100 30" preserveAspectRatio="xMinYMid" aria-hidden="true">
+				<path d="M2 20 L18 6 L30 6 L45 20 L70 20 L90 6" fill="none" stroke="#ff1333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+			</svg>
+			<h1>Rayyan Rashid — Projects</h1>
+		</div>
+		<nav class="main-nav">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="skills.html">Skills</a>
+			<a href="certificates.html">Certificates</a>
+			<a href="projects.html" class="active">Projects</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<div class="header-actions">
+			<button id="themeToggle" aria-pressed="false" title="Toggle theme">🌗</button>
+		</div>
+	</header>
+
+	<main class="page projects">
+		<h2>Projects</h2>
+
+		<article class="project-card">
+			<h3>Magnesia — Magnesium Fuel Initiative</h3>
+			<p><strong>Magnesia</strong> is an early-stage research & prototype project investigating magnesium-based fuels as an alternative energy carrier. The work focuses on safe prototype design, lifecycle analysis, and small-scale demonstrations that explore how magnesium could be utilised as a fuel source for combustion systems and hybrid setups.</p>
+
+			<div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:18px;">
+				<div style="flex:1 1 360px;min-width:280px">
+					<h4>Project Highlights</h4>
+					<ul>
+						<li>Prototype development and safety testing</li>
+						<li>Lifecycle and emissions analysis</li>
+						<li>Compact demonstrator design for lab testing</li>
+					</ul>
+
+					<h4>My role</h4>
+					<p>Design lead for the prototype dashboard, simulations, and front-end visualisation of test metrics (temperature, efficiency, emissions).</p>
+
+					<h4>Tech & Tools</h4>
+					<p>MATLAB (analysis, modelling), Python (data processing), HTML/CSS/JS (visualisation), basic hardware prototyping.</p>
+
+					<div style="margin-top:12px">
+						<a class="btn" href="#">Learn more</a>
+						<a class="btn" href="#" style="margin-left:8px">View repo</a>
+					</div>
+				</div>
+
+				<div style="flex:0 0 420px;min-width:280px">
+					<h4>Screenshots</h4>
+					<div class="gallery-grid" style="grid-template-columns:repeat(1,1fr);gap:12px;margin-top:12px">
+						<button class="thumb" data-src="https://picsum.photos/id/1035/1200/800"><img src="https://picsum.photos/id/1035/800/500" alt="Magnesia demo 1" loading="lazy"/></button>
+						<button class="thumb" data-src="https://picsum.photos/id/1040/1200/800"><img src="https://picsum.photos/id/1040/800/500" alt="Magnesia demo 2" loading="lazy"/></button>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<section style="margin-top:40px">
+			<h3>Other projects</h3>
+			<div class="features" style="margin-top:12px">
+				<article class="card">
+					<h4>Velocity UI</h4>
+					<p>Car-themed dashboard UI built with responsive CSS and neon accents.</p>
+				</article>
+				<article class="card">
+					<h4>Portfolio Grid</h4>
+					<p>Photography gallery with lightbox and lazy-loading thumbnails.</p>
+				</article>
+				<article class="card">
+					<h4>Magnesium Research</h4>
+					<p>Supporting analyses and plots implemented in MATLAB.</p>
+				</article>
+			</div>
+		</section>
+
+		<section style="margin-top:28px">
+			<h3>Want to collaborate?</h3>
+			<p>If you'd like details, code, or test data, <a href="contact.html">get in touch</a> and I can share more or set up a demo.</p>
+		</section>
+
+	</main>
+
+	<footer class="site-footer">
+		<div>© <span id="year"></span> Rayyan Rashid</div>
+		<div class="socials">
+			<a href="#">Twitter</a>
+			<a href="#">GitHub</a>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
